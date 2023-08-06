@@ -10,7 +10,8 @@ repositories {
 }
 
 dependencies {
-    implementation("com.sksamuel.scrimage:scrimage-core:4.0.38")
+    implementation("com.sksamuel.scrimage:scrimage-core:4.0.37")
+    implementation("com.sksamuel.scrimage:scrimage-webp:4.0.37")
     testImplementation(kotlin("test"))
 }
 
